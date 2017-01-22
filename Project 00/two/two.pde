@@ -1,4 +1,4 @@
-//Draw a circle with a stroke and a fill in the center of the screen
+//Draw 200 circles of increasing size and color value in a rectangular grid
 
 int cellSize = 210;
 
