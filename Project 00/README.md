@@ -7,3 +7,7 @@
 ## 2. Draw 200 circles of increasing size and color value in a rectangular grid
 
 ![Cirles in a Grid](two.png)
+
+## 3. Animate a circle so it chases your cursor, like a ghost chasing after Pac-Man
+
+![Pac Man Circle](three.gif)
