@@ -1,5 +1,9 @@
 # Project 00
 
-## Draw a circle with a stroke and a fill in the center of the screen
+## 1. Draw a circle with a stroke and a fill in the center of the screen
 
 ![Cirle with Stroke](one.png)
+
+## 2. Draw 200 circles of increasing size and color value in a rectangular grid
+
+![Cirles in a Grid](two.png)
