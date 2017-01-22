@@ -11,12 +11,12 @@ void setup()
 
 void draw() 
 {
-  fill(255, 0, 0);
   int circleSize = 10;
     for(int i = 0; i < 10; i++) //row
     {
       for(int j = 0; j < 20; j++) //col
       {
+        fill(circleSize, 0, 0);
         ellipse(cellSize*j, cellSize*i, circleSize, circleSize); // (x, y, width, height)
         circleSize++;
       }
