@@ -32,4 +32,5 @@ I was also thinking about what if the user acted as a conductor for the music? C
 Possible Spray can mechaninism
 
 ![Paint Can Mechaninism](triggermechanism.jpg)
+
 [Source: fabacademy.org](http://fabacademy.org/archives/2013/students/anderson.douglas/week%2016%20-%20applications.html)
