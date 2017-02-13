@@ -1,5 +1,7 @@
 # Project 01 - Artifactory
 
+![System Diagram](systemDiagram.png)
+
 My concept is to pull in audio files, specifically songs, and output them as paint display. I plan to create an output that would, in a way, reference how vinyl is read to produce audio. In a way create this new kind of vinyl that would describe the song at hand.
 
 Scale is a concern of mine due to the paint spray produced by the cans. In a similar vain the idea of the output being circular may eliminate the expressiveness of the drawing has it will all be compressed. This will also depend on how many colors I want to include in the visual and how these colors would correspond to the input, the song file.
