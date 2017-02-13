@@ -2,6 +2,11 @@ import ddf.minim.analysis.*;
 import ddf.minim.*;
 import controlP5.*;
 import javax.sound.sampled.*;
+import oscP5.*;
+import netP5.*;
+
+OscP5 oscP5;
+NetAddress dest;
 
 //code taken from https://gist.github.com/corybarr/2983939
 
@@ -48,6 +53,10 @@ void setup()
   textFont(createFont("SanSerif", 12));
   windowName = String.valueOf(numBands) + " bands";
   
+  
+  /* start oscP5, listening for incoming messages at port 12000 */
+  oscP5 = new OscP5(this,9000);
+  dest = new NetAddress("127.0.0.1",6448);
 }
 
 
@@ -57,6 +66,9 @@ void drawRaw() {
   {
     // draw the line for frequency band i, scaling it by 4 so we can see it a bit better
     line(i, height / 2, i, height / 2 - fft.getBand(i)*4);
+    OscMessage msg = new OscMessage("/wek/inputs");
+    msg.add(fft.getBand(i)); 
+    oscP5.send(msg, dest);
   }
 }
 
@@ -90,7 +102,7 @@ void draw()
   }
   
   fft.forward(in.mix);
-
+  
   drawRaw();
   drawAverages();
 
