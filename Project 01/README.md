@@ -23,7 +23,7 @@ I re-found the following neat projects:
 
 [Chalkbot by Deeplocal](http://www.deeplocal.com/projects/chalkbot.html)
 
-<iframe width="100%" height="600" src="https://www.youtube.com/embed/Eq2dvGwaHzs" frameborder="0" allowfullscreen></iframe>
+[![video](videotile.png)](https://www.youtube.com/embed/Eq2dvGwaHzs)
 
 I was also thinking about what if the user acted as a conductor for the music? Could I transform an audio file into a conductors movements and communicate that through paint trigger? As this was a short project and do not know much about conducting and all that is entailed, I decided to table this idea for the time being.
 
