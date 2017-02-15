@@ -1,5 +1,6 @@
 # Project 01 - Artifactory
 
+![Hero](hero.jpg)
 
 [![video](videotile.png)](https://www.youtube.com/watch?v=5yVv-ljGm6Q)
 
