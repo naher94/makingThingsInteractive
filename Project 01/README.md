@@ -1,7 +1,7 @@
 # Project 01 - Artifactory
 
 
-[![video](videotile.png)](https://www.youtube.com/embed/5yVv-ljGm6Q)
+[![video](videotile.png)](https://www.youtube.com/watch?v=5yVv-ljGm6Q)
 
 ![System Diagram](systemDiagram.png)
 
