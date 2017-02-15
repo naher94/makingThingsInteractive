@@ -8,7 +8,7 @@ import netP5.*;
 OscP5 oscP5;
 NetAddress dest;
 
-//code taken from https://gist.github.com/corybarr/2983939
+//some code taken from https://gist.github.com/corybarr/2983939
 
 Minim minim;
 //AudioPlayer jingle;
