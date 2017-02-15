@@ -14,6 +14,8 @@ My original concept was to process audio, specifically songs, and output them as
 
 ![Sketch](sketches.png)
 
+![Construction](process.png)
+
 Originally my system was going to be completely independent of user interaction, but through conversation though it would be best to include the user and have them act as the conductor to the music being heard. Have the system handle the type of paint spray but the user acts are the placement of the paint. By involving the user it also reduced the mechanical complexity of the system, which in short projects especially its important to keep it simple.
 
 After coming up with this original concept, I was pushed to make a more interesting piece. As part of pushing the concept further I returned to the web to see what all is out there.
