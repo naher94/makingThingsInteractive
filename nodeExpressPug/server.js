@@ -9,8 +9,9 @@ app.set('view engine', 'pug');
 // GET response for '/'
 app.get('/', function (req, res) {
  
+    var currentdate = new Date();
     // render the 'index' template, and pass in a few variables
-    res.render('index', { title: 'Hey', message: 'Hello there!' });
+    res.render('index', { title: 'Hey', message: 'Hello there!', date: currentdate });
  
 });
  
